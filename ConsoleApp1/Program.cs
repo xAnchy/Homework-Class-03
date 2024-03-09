@@ -25,13 +25,11 @@ int i = int.Parse(Console.ReadLine());
 foreach (string student in studentsG1)
 {
     if (i == 1)
-        continue;
     Console.WriteLine(student + " ");
 }
 
 foreach (string student in studentsG2)
 {
     if (i == 2)
-        continue;
     Console.WriteLine(student + " ");
 }
